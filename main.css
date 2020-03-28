@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore|Open+Sans&display=swap');
 
 
-
 * {
   margin: 0;
   padding: 0;
@@ -12,4 +11,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),url('../img/background.jpg');
   color: var(--black);
+}
+
+/* global styles */
+.bell-fonts {
+  font-family: 'La Belle Aurore', cursive;
 }
