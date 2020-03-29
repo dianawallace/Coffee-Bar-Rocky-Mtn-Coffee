@@ -27,3 +27,9 @@ body {
   align-items: center;
   position: relative;
 }
+@media screen and (max-width:768) {
+  .header{
+    background: url('../img/header-bkg.jpg');
+    background-position: center;
+  }
+}
