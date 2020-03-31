@@ -36,3 +36,11 @@ body {
     background-repeat: no-repeat;   
   }
 }
+
+/* banner */
+
+.banner {
+  text-align: center;
+  z-indes: 3;
+}
+
