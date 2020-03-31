@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore|Open+Sans&display=swap');
 
 
+/*  color scheme
+    #FF6542 tomato 
+    #a44200 brown
+    #3c311f olive drab
+    #623f1f otter brown
+    #744924 kobicha
+    #c28d4b aztec gold
+    #dfbe95 pale gold
+    #ddcdbf dust storm
+    #448fa3 steel blue
+    */
+
 * {
   margin: 0;
   padding: 0;
@@ -44,3 +56,8 @@ body {
   z-indes: 3;
 }
 
+.banner__title {
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: #ddcdbf;  
+}
