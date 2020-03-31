@@ -59,10 +59,22 @@ body {
 .banner__title {
   font-size: 4rem;
   text-transform: capitalize;
-  color: #623f1f;  
+  color: #448fa3;  
 }
 @media screen annd (min-width:768px) {
   .banner__title {
     font-size: 9rem    
   }
 }
+
+.banner__social-icon {
+  display: block;
+  text-decoration: none;
+  color: #448fa3;
+  border: 0.1rem solid #448fa3;
+  border-radius: 50%;
+  padding: 0.25rem;
+  transition: all 0.5s linear;
+}
+
+
