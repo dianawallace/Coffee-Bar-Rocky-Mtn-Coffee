@@ -11,7 +11,7 @@
     #dfbe95 pale gold
     #ddcdbf dust storm
     #448fa3 steel blue
-    */
+*/
 
 * {
   margin: 0;
@@ -59,5 +59,10 @@ body {
 .banner__title {
   font-size: 4rem;
   text-transform: capitalize;
-  color: #ddcdbf;  
+  color: #623f1f;  
+}
+@media screen annd (min-width:768px) {
+  .banner__title {
+    font-size: 9rem    
+  }
 }
