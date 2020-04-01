@@ -53,7 +53,7 @@ body {
 
 .banner {
   text-align: center;
-  z-indes: 3;
+  z-index: 3;
 }
 
 .banner__title {
@@ -61,7 +61,7 @@ body {
   text-transform: capitalize;
   color: #448fa3;  
 }
-@media screen annd (min-width:768px) {
+@media screen and (min-width:768px) {
   .banner__title {
     font-size: 9rem    
   }
