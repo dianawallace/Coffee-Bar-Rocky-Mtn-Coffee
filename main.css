@@ -21,8 +21,11 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(rgba(223,190,149,0.75), rgba(194,171,75,0.75)),url('../img/background.jpg');
-  color: var(--black);
+  background: linear-gradient(rgba(98,63,31,0.95), rgba(223,190,149,0.85)),url('../img/background.jpg');  
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 /* global styles */
@@ -63,7 +66,8 @@ body {
 }
 @media screen and (min-width:768px) {
   .banner__title {
-    font-size: 6rem    
+    font-size: 6rem;
+    color: #ddcdbf;    
   }
 }
 
@@ -78,8 +82,8 @@ body {
 }
 
 .banner__social-icon:hover {
-  background: #ddcdbf;
-  color: #448fa3;
+  background: #448fa3;
+  color: #ddcdbf;
 }
 
 .banner__icons {
