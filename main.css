@@ -137,3 +137,7 @@ body {
     transform: scale(1)
   }
 }
+
+i {
+  color: #ddcdbf;
+}
