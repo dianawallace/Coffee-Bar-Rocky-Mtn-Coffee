@@ -149,7 +149,15 @@ body {
   left: 0;
   height: 100%;
   width: 10rem;
-  background: rgb(68, 143, 163);
+  background: rgb(68, 143, 163, 0.8);
   z-index: 3;
 }
 
+.nav__single-link {
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ddcdbf;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
