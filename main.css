@@ -176,4 +176,12 @@ body {
 .video__switch-container {
   display: none;
 }
-
+@media screen and (min-width:768px) {
+  .video__switch-container {
+    color: #ddcdbf;
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;    
+  }
+}
