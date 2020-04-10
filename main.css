@@ -184,4 +184,16 @@ body {
     bottom: 5%;
     right: 5%;    
   }
+
+    .video__switch {
+    position: relative;
+    width: 5rem;
+    background: #448fa3;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
 }
