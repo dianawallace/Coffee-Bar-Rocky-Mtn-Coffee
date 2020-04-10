@@ -33,7 +33,19 @@ body {
   font-family: 'La Belle Aurore', cursive;
 }
 
-
+/* preloader */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: steelblue;
+  z-index: 999;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 
 /* header */
 .header {
