@@ -184,7 +184,6 @@ body {
     bottom: 5%;
     right: 5%;    
   }
-
     .video__switch {
     position: relative;
     width: 5rem;
@@ -196,4 +195,13 @@ body {
     cursor: pointer;
     border-radius: 0.5rem;
   }
+    .video__switch-btn {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 50%;
+      background: #ddcdbf;
+      border-radius: 0.5rem;
+    }
 }
