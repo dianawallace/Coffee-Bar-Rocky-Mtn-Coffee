@@ -187,6 +187,16 @@ body {
   padding-left: 1.5rem;
 }
 
+.nav {
+  width: 0;
+  overflow: hidden;
+}
+.nav--show {
+  width: 10rem;
+}
+
+/* video switch */
+
 .video__switch-container {
   display: none;
 }
