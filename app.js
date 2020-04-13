@@ -8,6 +8,6 @@ window.addEventListener('load', function () {
 });
 
 // nav btn
-document.querySelector('navBtn').addEventListener('click', function () {
-  document.querySelector('.nav')
+document.querySelector('.navBtn').addEventListener('click', function () {
+  document.querySelector('.nav').classList.toggle('nav--show')
 });
