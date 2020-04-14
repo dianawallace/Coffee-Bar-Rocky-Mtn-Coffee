@@ -1,12 +1,11 @@
-// hide preloader
-// all the images scripts links have finished loading
 
-// window event listener
+
+// event listeners
 
 eventListeners();
 function eventListeners() {
   const ui = new UI()
-
+  // preloader
   window.addEventListener('load', function () {
     ui.hidePreloader();
   });
@@ -17,13 +16,15 @@ function eventListeners() {
   });
 }
 
+// constructor function
 function UI() {
-
 }
 
+// hide preloader
 UI.prototype.hidePreloader = function () {
   document.querySelector('.preloader').style.display = "none";
 }
+// show Nav
 UI.prototype.showNav = function () {
   document.querySelector('.nav').classList.toggle('nav--show')
 }
