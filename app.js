@@ -14,6 +14,11 @@ function eventListeners() {
   document.querySelector('.navBtn').addEventListener('click', function () {
     ui.showNav();
   });
+
+  // control the video
+  document.querySelector('.video__switch').addEventListener('click', function () {
+    ui.videoControls();
+  });
 }
 
 // constructor function
