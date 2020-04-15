@@ -33,3 +33,7 @@ UI.prototype.hidePreloader = function () {
 UI.prototype.showNav = function () {
   document.querySelector('.nav').classList.toggle('nav--show')
 }
+// play/pause the video
+UI.prototype.videoControls = function () {
+
+}
