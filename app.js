@@ -35,5 +35,13 @@ UI.prototype.showNav = function () {
 }
 // play/pause the video
 UI.prototype.videoControls = function () {
-
+  let btn = document.querySelector('.video__switch-btn');
+  if (!btn.classList.contains('btnSlide')) {
+    btn.classList.add('btnSlide')
+    document.querySelector('.video__item').pause()
+  }
+  else {
+    btn.classList.remove('btnSlide')
+    document.querySelector('.video__item').play()
+  }
 }
