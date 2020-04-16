@@ -45,3 +45,4 @@ UI.prototype.videoControls = function () {
     document.querySelector('.video__item').play()
   }
 }
+
