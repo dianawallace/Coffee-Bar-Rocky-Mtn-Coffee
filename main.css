@@ -46,7 +46,7 @@ body {
   grid-row-gap: 2rem;
 }
 @media screen and (min-width:768px) {
-  .grid-container-medium-2 {
+  .grid-container--medium-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 4rem;
