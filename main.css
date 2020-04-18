@@ -33,6 +33,11 @@ body {
   font-family: 'La Belle Aurore', cursive;
 }
 
+/* section padding */
+.section-padding {
+  padding: 3rem 0;
+}
+
 /* preloader */
 .preloader {
   position: fixed;
