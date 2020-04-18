@@ -38,6 +38,12 @@ body {
   padding: 3rem 0;
 }
 
+/* grid container */
+.grid-container {
+  max-width: 90vw;
+  margin: 2rem auto;
+}
+
 /* preloader */
 .preloader {
   position: fixed;
