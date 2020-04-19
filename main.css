@@ -66,6 +66,12 @@ body {
   text-transform: capitalize;
 }
 
+.section-title__underline {
+  background: #448fa3;
+  width: 5rem;
+  height: 0.25rem;
+}
+
 /* preloader */
 .preloader {
   position: fixed;
