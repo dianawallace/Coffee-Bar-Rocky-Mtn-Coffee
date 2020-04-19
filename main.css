@@ -56,6 +56,16 @@ body {
   }
 }
 
+/* section */
+.section-title {
+  padding: 1rem 0.5rem;
+}
+
+.section-title__name {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
 /* preloader */
 .preloader {
   position: fixed;
