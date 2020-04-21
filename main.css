@@ -281,6 +281,13 @@ body {
 }
 
 /* about */
+.about-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 1fr;
+  grid-gap: 2rem;
+}
+
 .about__img-item {
   width: 100%;
   display: block;
