@@ -295,5 +295,9 @@ body {
   border-radius: 0.25rem;
 }
 
-
+@media screen and (min-width:768px) {
+  .about__img-special {
+    order: -1;
+  }
+}
 
