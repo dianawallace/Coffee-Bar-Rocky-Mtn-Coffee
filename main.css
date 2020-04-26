@@ -310,3 +310,11 @@ body {
   color: #ddcdbf;
   text-transform: capitalize;
 }
+
+.drink-form,.drink-card {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 70%;
+  justify-content: center;
+  grid-row-gap: 1.25rem;
+}
