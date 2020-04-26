@@ -336,3 +336,7 @@ body {
   color: green;
   border-color: green;
 }
+
+.drink-form__title,.drink-card__title {
+  font-size: 3rem;
+}
