@@ -318,3 +318,9 @@ body {
   justify-content: center;
   grid-row-gap: 1.25rem;
 }
+
+.drink-form__feedback {
+  border: 0.1rem solid blue;
+  padding: 0.25rem;
+  display: none;
+}
