@@ -344,3 +344,13 @@ body {
 .input-name,.input-lastname,.input-email {
   width: 100%;
 }
+
+.input-name,.input-lastname,.input-email,.input-submit {
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background: #ddcdbf;
+  color: #623f1f;
+  border: none;
+  outline: none;
+}
