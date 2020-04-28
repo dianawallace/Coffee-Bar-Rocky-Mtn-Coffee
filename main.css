@@ -340,3 +340,7 @@ body {
 .drink-form__title,.drink-card__title {
   font-size: 3rem;
 }
+
+.input-name,.input-lastname,.input-email {
+  width: 100%;
+}
