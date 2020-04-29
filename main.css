@@ -359,3 +359,15 @@ body {
   color: #623f1f;
   text-transform: capitalize;
 }
+
+.input-submit {
+  background: #448fa3;
+  color: #ddcdbf;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.input-submit:hover {
+  opacity: 0.6;
+}
