@@ -354,3 +354,8 @@ body {
   border: none;
   outline: none;
 }
+
+.input-name::placeholder,.input-lastname::placeholder,.input-email::placeholder {
+  color: #623f1f;
+  text-transform: capitalize;
+}
