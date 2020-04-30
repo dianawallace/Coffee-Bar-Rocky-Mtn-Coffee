@@ -371,3 +371,9 @@ body {
 .input-submit:hover {
   opacity: 0.6;
 }
+
+.drink-card__list {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-row-gap: 2rem;
+}
