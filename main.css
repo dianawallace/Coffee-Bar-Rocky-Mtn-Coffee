@@ -377,3 +377,15 @@ body {
   grid-template-columns: 100%;
   grid-row-gap: 2rem;
 }
+
+.person {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  align-items: center;
+  text-align: left;
+  grid-gap: 1rem;
+  border: 0.1rem solid #ddcdbf;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
