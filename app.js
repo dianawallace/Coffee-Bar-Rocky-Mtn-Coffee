@@ -19,6 +19,14 @@ function eventListeners() {
   document.querySelector('.video__switch').addEventListener('click', function () {
     ui.videoControls();
   });
+
+  // submit the form
+  document.querySelector('.drink-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+    const name = document.querySelector('.input-name').value;
+    cont lastName = document.querySelector('.input-lastName').value;
+    const email = document.querySelector('.input-email').value;
+  })
 }
 
 // constructor function
