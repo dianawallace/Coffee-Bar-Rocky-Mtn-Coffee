@@ -29,8 +29,12 @@ function eventListeners() {
 
     let value = ui.checkEmpty(name, lastName, email);
 
-    console.log(value);
+    if (value) {
 
+    }
+    else {
+      ui.showFeedback('some form values empty', 'error')
+    }
 
   })
 }
