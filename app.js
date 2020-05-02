@@ -24,8 +24,14 @@ function eventListeners() {
   document.querySelector('.drink-form').addEventListener('submit', function (event) {
     event.preventDefault();
     const name = document.querySelector('.input-name').value;
-    cont lastName = document.querySelector('.input-lastName').value;
+    const lastName = document.querySelector('.input-lastname').value;
     const email = document.querySelector('.input-email').value;
+
+    let value = ui.checkEmpty(name, lastName, email);
+
+    console.log(value);
+
+
   })
 }
 
@@ -54,3 +60,14 @@ UI.prototype.videoControls = function () {
   }
 }
 
+// check for empty values
+UI.prototype.checkEmpty = function (name, lastname, email) {
+  let result;
+  if (name === '' || lastname === '' || email === '') {
+    result = false;
+  }
+  else {
+    result = true;
+  }
+  return result;
+}
