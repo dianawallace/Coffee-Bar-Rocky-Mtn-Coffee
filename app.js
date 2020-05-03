@@ -30,7 +30,7 @@ function eventListeners() {
     let value = ui.checkEmpty(name, lastName, email);
 
     if (value) {
-
+      ui.showFeedback('customer added to the list', 'success')
     }
     else {
       ui.showFeedback('some form values empty', 'error')
@@ -78,14 +78,14 @@ UI.prototype.checkEmpty = function (name, lastname, email) {
 
 UI.prototype.showFeedback = function (text, type) {
   if (type === 'success') {
-    document.querySelector('.drink-form__fedback');
+    let feedback = document.querySelector('.drink-form__feedback');
     feedback.classList.add('success');
     feedback.innerText = text;
     this.removeAlert('success')
 
   }
   else if (type === 'error') {
-    let feedback = document.querySelector('.drink-form__fedback');
+    let feedback = document.querySelector('.drink-form__feedback');
     feedback.classList.add('error');
     feedback.innerText = text;
     this.removeAlert('error')
