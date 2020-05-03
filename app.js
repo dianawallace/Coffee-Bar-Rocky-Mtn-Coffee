@@ -78,6 +78,10 @@ UI.prototype.checkEmpty = function (name, lastname, email) {
 
 UI.prototype.showFeedback = function (text, type) {
   if (type === 'success') {
+    document.querySelector('.drink-form__fedback');
+    feedback.classList.add('success');
+    feedback.innerText = text;
+    this.removeAlert('success')
 
   }
   else if (type === 'error') {
