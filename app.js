@@ -84,5 +84,15 @@ UI.prototype.showFeedback = function (text, type) {
     let feedback = document.querySelector('.drink-form__fedback');
     feedback.classList.add('error');
     feedback.innerText = text;
+    this.removeAlert('error')
   }
+}
+
+// remove alert
+UI.prototype.removeAlert = function (type) {
+
+  setTimeout(function () {
+    document.querySelector('.drink-form__feedback').classList.remove(type)
+  }, 3000)
+
 }
