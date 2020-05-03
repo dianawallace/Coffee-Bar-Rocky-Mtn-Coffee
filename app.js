@@ -75,3 +75,14 @@ UI.prototype.checkEmpty = function (name, lastname, email) {
   }
   return result;
 }
+
+UI.prototype.showFeedback = function (text, type) {
+  if (type === 'success') {
+
+  }
+  else if (type === 'error') {
+    let feedback = document.querySelector('.drink-form__fedback');
+    feedback.classList.add('error');
+    feedback.innerText = text;
+  }
+}
