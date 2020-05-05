@@ -100,3 +100,10 @@ UI.prototype.removeAlert = function (type) {
   }, 3000)
 
 }
+
+// customer
+function Customer(name, lastname, email) {
+  this.name = name,
+    this.lastname = lastname,
+    this.email = email;
+}
