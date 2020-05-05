@@ -30,6 +30,9 @@ function eventListeners() {
     let value = ui.checkEmpty(name, lastName, email);
 
     if (value) {
+      let customer = new Customer(name, lastName, email)
+      console.log(customer);
+
       ui.showFeedback('customer added to the list', 'success')
     }
     else {
