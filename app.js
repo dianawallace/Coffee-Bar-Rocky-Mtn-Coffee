@@ -108,7 +108,13 @@ UI.prototype.removeAlert = function (type) {
 UI.prototype.addCustomer = function (customer) {
   const images = [1, 2, 3, 4, 5];
   let random = Math.floor(Math.random() * images.length);
-  console.log(random);
+  const div = document.createElement('div');
+  div.classList.add('person');
+  div.innerHTML = `<img src="img/person-${random}.jpg" alt="person"
+  class="person__thumbnail">
+    <h4 class="person__name">${customer.name}</h4>
+    <h4 class="person__last-name">${customer.lastname}</h4>`
+  document.querySelector('.drink-card__list').appendChild(div)
 }
 
 // customer
