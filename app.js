@@ -32,7 +32,7 @@ function eventListeners() {
     if (value) {
       let customer = new Customer(name, lastName, email)
       console.log(customer);
-
+      ui.addCustomer(customer)
       ui.showFeedback('customer added to the list', 'success')
     }
     else {
@@ -102,6 +102,13 @@ UI.prototype.removeAlert = function (type) {
     document.querySelector('.drink-form__feedback').classList.remove(type)
   }, 3000)
 
+}
+
+// add customer 
+UI.prototype.addCustomer = function (customer) {
+  const images = [1, 2, 3, 4, 5];
+  let random = Math.floor(Math.random() * images.length);
+  console.log(random);
 }
 
 // customer
