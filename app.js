@@ -34,6 +34,7 @@ function eventListeners() {
       console.log(customer);
       ui.addCustomer(customer)
       ui.showFeedback('customer added to the list', 'success')
+      ui.clearfields()
     }
     else {
       ui.showFeedback('some form values empty', 'error')
@@ -80,15 +81,14 @@ UI.prototype.checkEmpty = function (name, lastname, email) {
 }
 
 UI.prototype.showFeedback = function (text, type) {
+  const feedback = document.querySelector('.drink-form__feedback');
   if (type === 'success') {
-    let feedback = document.querySelector('.drink-form__feedback');
     feedback.classList.add('success');
     feedback.innerText = text;
     this.removeAlert('success')
 
   }
   else if (type === 'error') {
-    let feedback = document.querySelector('.drink-form__feedback');
     feedback.classList.add('error');
     feedback.innerText = text;
     this.removeAlert('error')
@@ -115,6 +115,13 @@ UI.prototype.addCustomer = function (customer) {
     <h4 class="person__name">${customer.name}</h4>
     <h4 class="person__last-name">${customer.lastname}</h4>`
   document.querySelector('.drink-card__list').appendChild(div)
+}
+
+// clear fields
+UI.prototype.clearfields = function () {
+  document.querySelector('.input-name').value = '';
+  document.querySelector('.input-lastname').value = '';
+  document.querySelector('.input-email').value = '';
 }
 
 // customer
