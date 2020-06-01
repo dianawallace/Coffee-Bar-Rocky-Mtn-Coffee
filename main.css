@@ -414,3 +414,10 @@ body {
   height: 100%;
   display: block;
 }
+
+.work-item {
+  background: linear-gradient(#ddcdbf, #ddcdbf);
+}
+.work-item:hover .work-item__img {
+  opacity: 0.5;
+}
