@@ -424,3 +424,13 @@ body {
   opacity: 0.5;
   transform: scale(1.2);
 }
+
+.work-item__icon {
+  color: #448fa3;
+  top: 50%;
+  display: inline-block;
+  font-size: 4rem;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  transform: scale(0);
+}
