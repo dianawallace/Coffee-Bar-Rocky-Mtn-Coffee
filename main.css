@@ -426,11 +426,17 @@ body {
 }
 
 .work-item__icon {
+  position: absolute;
   color: #448fa3;
   top: 50%;
+  left: 50%;
   display: inline-block;
   font-size: 4rem;
   text-decoration: none;
   transition: all 0.5s ease;
   transform: scale(0);
+}
+
+.work-item:hover .work-item__icon {
+  transform: scale(1.3) translate(-50%,-50%);
 }
