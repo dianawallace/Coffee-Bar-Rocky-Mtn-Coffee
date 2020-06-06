@@ -419,6 +419,8 @@ body {
 
 .work-item {
   background: linear-gradient(#ddcdbf, #ddcdbf);
+  overflow: hidden;
+  position: relative;
 }
 .work-item:hover .work-item__img {
   opacity: 0.5;
