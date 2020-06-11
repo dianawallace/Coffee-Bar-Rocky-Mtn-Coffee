@@ -506,3 +506,9 @@ body {
   right: 0;
   z-index: 999;  
 }
+
+.work-modal__item {
+  background: url('../img/work-7.jpg')center/cover;
+  height: 70vh;
+  width: 80vw;
+}
