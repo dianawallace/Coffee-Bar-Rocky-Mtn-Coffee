@@ -515,3 +515,11 @@ body {
   height: 70vh;
   width: 80vw;
 }
+
+.work-modal__close {
+  position: fixed;
+  font-size: 3rem;
+  color: #448fa3;
+  bottom: 5%;
+  right: 5%;
+}
