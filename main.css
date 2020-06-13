@@ -523,3 +523,7 @@ body {
   bottom: 5%;
   right: 5%;
 }
+
+.work-modal__close:hover {
+  color: red;
+}
