@@ -522,6 +522,10 @@ body {
   color: #448fa3;
   bottom: 5%;
   right: 5%;
+  transition: color 0.5s linear;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .work-modal__close:hover {
