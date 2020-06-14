@@ -514,6 +514,8 @@ body {
   background: url('../img/work-7.jpg')center/cover;
   height: 70vh;
   width: 80vw;
+  border: 0.5rem solid #448fa3;
+  border-radius: 0.4rem;
 }
 
 @media screen and (min-width:768px) {
