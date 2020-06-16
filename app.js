@@ -41,6 +41,15 @@ function eventListeners() {
     }
 
   })
+  // display modal
+  const links = document.querySelectorAll('.work-item__icon');
+
+  links.forEach(function (item) {
+    item.addEventListener('click', function (event) {
+      ui.showModal(event)
+    })
+  })
+
 }
 
 // constructor function
