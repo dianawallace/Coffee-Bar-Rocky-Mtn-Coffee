@@ -497,7 +497,12 @@ body {
 }
 
 /* modal */
+
 .work-modal {
+  display: none;
+}
+
+.work-modal--show {
   position: fixed;
   background: rgba(0,0,0,0.5);
   top: 0;
