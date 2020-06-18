@@ -143,7 +143,7 @@ UI.prototype.showModal = function (event) {
   const modalItem = document.querySelector('.work-modal__item');
 
   modal.classList.add('work-modal--show');
-  modalItem.style.backgroundImage = 'url(img/work- ${id}.jpg'
+  modalItem.style.backgroundImage = 'url(img/work- ${id}.jpg)'
 }
 
 // customer
