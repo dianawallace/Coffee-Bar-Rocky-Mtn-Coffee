@@ -49,6 +49,11 @@ function eventListeners() {
       ui.showModal(event)
     })
   })
+  // hide modal
+  document.querySelector('.work-modal__close').addEventListener('click', function () {
+    ui.closeModal()
+  })
+
 
 }
 
@@ -145,6 +150,7 @@ UI.prototype.showModal = function (event) {
   modal.classList.add('work-modal--show');
   modalItem.style.backgroundImage = 'url(img/work- ${id}.jpg)'
 }
+
 
 // customer
 function Customer(name, lastname, email) {
