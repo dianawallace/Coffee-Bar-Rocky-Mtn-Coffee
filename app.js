@@ -150,7 +150,11 @@ UI.prototype.showModal = function (event) {
   modal.classList.add('work-modal--show');
   modalItem.style.backgroundImage = 'url(img/work- ${id}.jpg)'
 }
+// hide modal
 
+UI.prototype.closeModal = function () {
+  document.querySelector('.work-modal').classList.remove('work-modal--show')
+}
 
 // customer
 function Customer(name, lastname, email) {
