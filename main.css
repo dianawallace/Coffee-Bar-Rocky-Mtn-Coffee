@@ -545,3 +545,11 @@ body {
 .work-modal__close:hover {
   color: red;
 }
+
+/* contact section */
+.contact-container {
+  max-width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-row-gap: 1rem;  
+}
