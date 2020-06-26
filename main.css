@@ -553,3 +553,8 @@ body {
   display: grid;
   grid-row-gap: 1rem;  
 }
+
+.contact-info {
+  display: grid;
+  justify-content: center;
+}
