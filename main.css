@@ -552,9 +552,14 @@ body {
   margin: 0 auto;
   display: grid;
   grid-row-gap: 1rem;  
+  justify-content: center;
 }
 
 .contact-info {
   display: grid;
   justify-content: center;
+}
+
+.contact-item {
+  margin: 1rem 0;
 }
