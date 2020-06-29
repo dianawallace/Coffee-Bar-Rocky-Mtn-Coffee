@@ -569,3 +569,10 @@ body {
   font-size: 3rem;
   color: #448fa3;
 }
+
+.contact-item__title {
+  text-transform: uppercase;
+  margin: 0.5rem 0;
+  letter-spacing: 0.25rem;
+  font-style: italic;
+}
