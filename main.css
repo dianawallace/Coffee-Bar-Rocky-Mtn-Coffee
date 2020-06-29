@@ -576,3 +576,8 @@ body {
   letter-spacing: 0.25rem;
   font-style: italic;
 }
+
+.contact-item__text {
+  font-size: 1rem;
+  text-transform: uppercase; 
+}
