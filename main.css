@@ -551,8 +551,7 @@ body {
   max-width: 90vw;
   margin: 0 auto;
   display: grid;
-  grid-row-gap: 1rem;  
-  justify-content: center;
+  grid-row-gap: 1rem;    
 }
 
 .contact-info {
@@ -587,4 +586,15 @@ body {
     grid-template-columns: repeat(3, 1fr);
     order: -1;
   }
+}
+@media screen and (min-width:992px) {
+  .contact-info {
+    grid-template-columns: repeat(1fr);
+    order: -1;
+  }
+
+  .contact-map {
+    align-self: center;
+  }
+
 }
